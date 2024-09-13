@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+}
+.main{
+    display: flex;
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: #00dfffa6;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    cursor: url(../images/face.jpg), default;
+    padding: 40px 20px;
+    text-align: center;
+}
+p::before {
+    content: attr(text);
+}
+p:hover::before{
+    content: attr(hover-text);
+    color: red;
+    font-size: 80px;
+}

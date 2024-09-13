@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: red;
+    gap: 50px;
+    font-size: 150px;
+}
+.empty{
+    margin-top: 250px;
+}
